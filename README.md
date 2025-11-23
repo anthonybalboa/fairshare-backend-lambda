@@ -7,6 +7,7 @@ Anthony Chu
 018302843
 
 Base URL
+Because auth is now required, these base urls won't show much anymore (will show unauthorized). Keeping them in documentation for historical purposes. They work great with Cognito when called from frontend (Amplify). 
 https://lfesbjfali.execute-api.us-west-1.amazonaws.com
 
 Currently
@@ -36,10 +37,6 @@ When a user calls POST /groups/{groupId}/join with their email, the backend subs
 
 
 
-
-To Test on your own:
-Copy and paste the url into your browser. I.e. https://lfesbjfali.execute-api.us-west-1.amazonaws.com/me. 
-NOTE that for POST, you need postman or to use Powershell like I did below, I showed my sample command and output below for that one POST request. 
 
 Available endpoints (for the UI)
 1. GET /me

@@ -1,10 +1,10 @@
 # fairshare-backend-lambda
  AWS Lambda Backend for CS 218 Final Project 
 
-Documentation below but also here: https://docs.google.com/document/d/1r0xvqCcgWvrc2kAM1ty-Xaqxwvl_kU2xWlj8DOxFMaE/edit?tab=t.0
+Documentation below but originally here: https://docs.google.com/document/d/1r0xvqCcgWvrc2kAM1ty-Xaqxwvl_kU2xWlj8DOxFMaE/edit?tab=t.0
 
-Anthony Chu 
-018302843
+Author: Anthony Chu 
+ID: 018302843
 
 Base URL
 Because auth is now required, these base urls won't show much anymore (will show unauthorized). Keeping them in documentation for historical purposes. They work great with Cognito when called from frontend (Amplify). 
@@ -28,8 +28,6 @@ If Cognito claims are missing (ONLY in local or early testing), backend falls ba
   name: "Anthony (Stub Mode)"
 }
 
-
-No auth required yet – no authorization header needed for now. 
 
 
 All endpoints expect/return JSON.
